@@ -102,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/mtkcam-debug:$(TARGET_COPY_OUT_VENDOR)/bin/mtkcam-debug \
     vendor/xiaomi/merlin/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
     vendor/xiaomi/merlin/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/xiaomi/merlin/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
