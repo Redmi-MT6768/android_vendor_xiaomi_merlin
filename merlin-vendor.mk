@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/Vincent_V4_TLC_128GB_P02_Gen.bin:$(TARGET_COPY_OUT_VENDOR)/bin/Vincent_V4_TLC_128GB_P02_Gen.bin \
     vendor/xiaomi/merlin/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/xiaomi/merlin/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/xiaomi/merlin/proprietary/vendor/bin/bip:$(TARGET_COPY_OUT_VENDOR)/bin/bip \
     vendor/xiaomi/merlin/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
     vendor/xiaomi/merlin/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
@@ -780,7 +779,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_hw_test.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
@@ -1074,7 +1072,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_hw_test.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
