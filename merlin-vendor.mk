@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/xiaomi/merlin/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/xiaomi/merlin/proprietary/vendor/bin/factory_bin:$(TARGET_COPY_OUT_VENDOR)/bin/factory_bin \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/fidoca:$(TARGET_COPY_OUT_VENDOR)/bin/fidoca \
     vendor/xiaomi/merlin/proprietary/vendor/bin/flashlessd:$(TARGET_COPY_OUT_VENDOR)/bin/flashlessd \
     vendor/xiaomi/merlin/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/xiaomi/merlin/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
@@ -95,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@1.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@3.0-service \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
     vendor/xiaomi/merlin/proprietary/vendor/bin/initprop_bin:$(TARGET_COPY_OUT_VENDOR)/bin/initprop_bin \
     vendor/xiaomi/merlin/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
@@ -112,13 +110,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
     vendor/xiaomi/merlin/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/mlipayd@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd@1.1 \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mmc_ffu:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mmc_ffu_hynix:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_hynix \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mmc_ffu_micron:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_micron \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/mtd@1.2:$(TARGET_COPY_OUT_VENDOR)/bin/mtd@1.2 \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mtkcam-debug:$(TARGET_COPY_OUT_VENDOR)/bin/mtkcam-debug \
     vendor/xiaomi/merlin/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
@@ -139,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/xiaomi/merlin/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     vendor/xiaomi/merlin/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/tidad@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/tidad@1.1 \
     vendor/xiaomi/merlin/proprietary/vendor/bin/volte_imcb:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imcb \
     vendor/xiaomi/merlin/proprietary/vendor/bin/volte_imsm_93:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imsm_93 \
     vendor/xiaomi/merlin/proprietary/vendor/bin/volte_md_status:$(TARGET_COPY_OUT_VENDOR)/bin/volte_md_status \
@@ -279,15 +274,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
@@ -617,7 +606,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/jcos_client.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
@@ -710,11 +698,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblogwrap_vendor.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libmfido.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfido.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmisound.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmisound.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnl.so \
@@ -771,7 +756,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libthhclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthhclient.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libtida@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtida@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
@@ -842,19 +826,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.microtrust.hardware.capi@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mfidoca@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.2.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.1.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.touchfeature@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
@@ -929,7 +906,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/jcos_client.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
@@ -1116,7 +1092,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblogwrap_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmfido.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfido.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmiStereoFactoryRemapLib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiStereoFactoryRemapLib.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmi_bokehcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi_bokehcap.so \
@@ -1128,8 +1103,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmibokeh_mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmisound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisound.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmprofile.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
@@ -1252,7 +1225,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtflite_mtk_static.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk_static.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libthhclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthhclient.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libtida@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtida@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlcWidevineModularDrm.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
@@ -1386,19 +1358,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.microtrust.hardware.thh@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.thh@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/wechat.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/wechat.beanpod.so \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/020b0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020b0000000000000000000000000000.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
