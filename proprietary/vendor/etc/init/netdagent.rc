@@ -1,0 +1,8 @@
+service netdagent /vendor/bin/netdagent
+    class late_start
+    #socket netdagent stream 0660 root system
+    user system
+    group net_admin net_raw system misc
+    capabilities NET_ADMIN NET_RAW
+
+

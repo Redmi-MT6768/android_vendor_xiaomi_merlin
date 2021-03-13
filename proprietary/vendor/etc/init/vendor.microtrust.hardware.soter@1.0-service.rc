@@ -1,0 +1,4 @@
+service soter-1-0 /vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
+    class hal
+    user system
+    group system

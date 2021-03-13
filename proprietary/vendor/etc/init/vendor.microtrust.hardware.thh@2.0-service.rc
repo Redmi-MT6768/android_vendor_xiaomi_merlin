@@ -1,0 +1,4 @@
+service thh-2-0 /vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
+    class late_start
+    user system
+    group system
