@@ -34,3 +34,29 @@ dex_import {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.2-service.widevine",
+	owner: "redmi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.gpu@1.0-service",
+	owner: "redmi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.gpu@1.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_vendor.mediatek.hardware.dplanner@2.0-service",
+	owner: "redmi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.mediatek.hardware.dplanner@2.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
