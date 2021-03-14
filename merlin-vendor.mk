@@ -168,22 +168,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/.thermal_policy_08:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_08 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/102_SummerDay.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/103_Fantasy.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/104_Meet.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/105_WindSing.png:$(TARGET_COPY_OUT_VENDOR)/etc/105_WindSing.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/106_Lost.png:$(TARGET_COPY_OUT_VENDOR)/etc/106_Lost.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/107_Central.png:$(TARGET_COPY_OUT_VENDOR)/etc/107_Central.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/108_NorthernEurope.png:$(TARGET_COPY_OUT_VENDOR)/etc/108_NorthernEurope.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/109_Rome.png:$(TARGET_COPY_OUT_VENDOR)/etc/109_Rome.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/110_BlackGold.png:$(TARGET_COPY_OUT_VENDOR)/etc/110_BlackGold.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/111_GreenOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/111_GreenOrange.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/112_Cyberpunk.png:$(TARGET_COPY_OUT_VENDOR)/etc/112_Cyberpunk.png \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/113_BlackIce.png:$(TARGET_COPY_OUT_VENDOR)/etc/113_BlackIce.png \
     vendor/xiaomi/merlin/proprietary/vendor/etc/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_VENDOR)/etc/Conf_MultipleTest.ini \
     vendor/xiaomi/merlin/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE_GPL.html.gz \
     vendor/xiaomi/merlin/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/xiaomi/merlin/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
@@ -348,14 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin/ro.prop \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin/rw.prop \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin[cn]/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin[cn]/ro.prop \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin[cn]/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin[cn]/rw.prop \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin[gl]/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin[gl]/ro.prop \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin[gl]/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin[gl]/rw.prop \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin[in]/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin[in]/ro.prop \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/rsc/merlin[in]/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/merlin[in]/rw.prop \
     vendor/xiaomi/merlin/proprietary/vendor/etc/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sceneDetection.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/00673b5b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/00673b5b.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
@@ -787,7 +766,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcap.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
@@ -803,33 +781,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-ss.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_amrnbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrnbenc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_amrwbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrwbenc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcenc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_gsmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_gsmdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_hevcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_hevcdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_mpeg2dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg2dec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_mpeg4enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstrongswan.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
@@ -1323,7 +1274,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-ss.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libst_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libst_sr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libst_sr_models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libst_sr_models.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
