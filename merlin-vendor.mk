@@ -746,6 +746,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstrongswan.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libteeclientjni@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtextclassifier_hash.so \
@@ -1216,6 +1217,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libteeclientjni@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
