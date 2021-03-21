@@ -1382,7 +1382,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
-    vendor/xiaomi/merlin/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
+    vendor/xiaomi/merlin/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/bt_drv.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/fmradio_drv.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/fpsgo.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/gps_drv.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/met.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/udc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/udc_lib.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wlan_drv_gen4m.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_chrdev_wifi.ko \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_drv.ko    
 
 PRODUCT_PACKAGES += \
     FingerprintExtensionService \
