@@ -1550,9 +1550,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 
 PRODUCT_PACKAGES += \
-    FingerprintExtensionService \
     SoterService \
-    com.fingerprints.extension \
     manifest_android.hardware.drm@1.2-service.widevine \
     manifest_android.hardware.gpu@1.0-service \
     manifest_vendor.mediatek.hardware.dplanner@2.0-service
