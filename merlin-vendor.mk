@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/xiaomi/merlin/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/xiaomi/merlin/proprietary/vendor/bin/gsort:$(TARGET_COPY_OUT_VENDOR)/bin/gsort \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
@@ -65,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/displayfeaturecontrol:$(TARGET_COPY_OUT_VENDOR)/bin/hw/displayfeaturecontrol \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/power_legacy_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_legacy_test_v_1_0 \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/power_native_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_0 \
@@ -85,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@3.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/xiaomi/merlin/proprietary/vendor/bin/initprop_bin:$(TARGET_COPY_OUT_VENDOR)/bin/initprop_bin \
     vendor/xiaomi/merlin/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     vendor/xiaomi/merlin/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
@@ -136,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/xiaomi/merlin/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/xiaomi/merlin/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/xiaomi/merlin/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
     vendor/xiaomi/merlin/proprietary/vendor/data/misc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc.txt \
     vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
@@ -161,41 +165,40 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
@@ -206,50 +209,51 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VOW_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VOW_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VOW_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VOW_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VOW_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VOW_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VOW_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VOW_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/AudioParamOptions.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/BtInfo_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/BtInfo_ParamUnitDesc.xml \
@@ -259,41 +263,40 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/MicInfo_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackACF_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackACF_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Playback_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackDRC_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackDRC_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackHCF_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackHCF_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Playback_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Playback_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolAna_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolAna_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolDigi_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolDigi_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Playback_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Playback_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Playback_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordDMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordFIR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordFIR_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVol_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVol_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SmartPa_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SmartPa_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SoundEnhancement_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SoundEnhancement_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechDMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechEchoRef_AudioParam.xml \
@@ -304,50 +307,51 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechMagiClarity_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechNetwork_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechNetwork_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVol_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVolUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/UplinkConfiguration_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/USBCall_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/USBCall_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/USBDevice_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/USBDevice_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/UplinkConfiguration_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VOW_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VOW_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VOW_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VOW_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPDMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPGeneral_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPGeneral_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPUI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVolUI_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVol_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVol_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2DMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2DMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2General_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2General_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamTreeView.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2UI_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2UI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVol_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVol_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVolUI_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Volume_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMap_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamTreeView.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMapUL_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMap_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Volume_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Volume_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VOW_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VOW_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VOW_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VOW_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/MIUI_Time.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/MIUI_Time.ttf \
@@ -401,6 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
@@ -944,6 +949,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeyboxext.so \
@@ -1403,8 +1409,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwa_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_refocus.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwa_rtdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_rtdof.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
