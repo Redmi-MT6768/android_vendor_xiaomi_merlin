@@ -662,6 +662,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc1_0_1a_1 \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/cs35l41-dsp1-diag-z.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-z.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/cs35l41-dsp1-diag-z.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-z.wmfw \
