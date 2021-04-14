@@ -272,8 +272,30 @@
   />
 
   <!-- Iusacell (ATT Mexico) -->
+  <supl_profile name="ATT Mexico 1"
+      addr="supl.attmex.mx"
+      port="7275"
+      tls="true"
+      mcc_mnc="334050"
+      supl_version="2"
+      tls_version="1"
+      sha_version="0"
+  />
+
+  <!-- NEXTEL (ATT Mexico) -->
+  <supl_profile name="ATT Mexico 2"
+      addr="supl.attmex.mx"
+      port="7275"
+      tls="true"
+      mcc_mnc="334090"
+      supl_version="2"
+      tls_version="1"
+      sha_version="0"
+  />
+
+  <!-- Iusacell (ATT Mexico) -->
   <supl_profile name="Iusacell (ATT Mexico)"
-      addr="supl.iusacell.com"
+      addr="supl.attmex.mx"
       port="7275"
       tls="true"
       mcc_mnc="334050"
@@ -284,7 +306,7 @@
 
   <!-- NEXTEL (ATT Mexico) -->
   <supl_profile name="NEXTEL (ATT Mexico)"
-      addr="supl.iusacell.com"
+      addr="supl.attmex.mx"
       port="7275"
       tls="true"
       mcc_mnc="334090"
@@ -549,7 +571,7 @@
   <gnss_setting
     sib8_16_enable="true"
     a_glonass_satellite_enable="true"
-    a_beidou_satellite_enable="true"
+    a_beidou_satellite_enable="false"
     a_galileo_satellite_enable="true"
   />
 
@@ -907,7 +929,7 @@
     qop_loc_age="0"
     qop_delay="0"
     udp_port_enable="false"
-    dedicated_apn_enable="false"
+    dedicated_apn_enable="true"
     preferred_2g3g_cell_age="300"
     lpp_enable="true"
     cert_from_sdcard="false"
