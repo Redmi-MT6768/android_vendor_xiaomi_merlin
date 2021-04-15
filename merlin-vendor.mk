@@ -918,9 +918,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/gps_drv.ko \
     vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/met.ko \
     vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/udc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/udc_lib.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wlan_drv_gen4m.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_chrdev_wifi.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_drv.ko \
     vendor/xiaomi/merlin/proprietary/vendor/lib/ov13b10_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13b10_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/ov13b10_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13b10_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/s5k4h7yx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7yx_mipi_raw_tuning.so \
@@ -1491,6 +1488,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 
 PRODUCT_PACKAGES += \
+    libfmjni \
     SoterService \
     manifest_android.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \

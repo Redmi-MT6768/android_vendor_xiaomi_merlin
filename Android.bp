@@ -5,6 +5,26 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libfmjni",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/product/lib/libfmjni.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/product/lib64/libfmjni.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	product_specific: true,
+}
+
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",
