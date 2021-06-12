@@ -917,15 +917,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/ls_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/ls_client.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/mibokeh_mt6768_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_mt6768_opencl.bin \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/bt_drv.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/fmradio_drv.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/fpsgo.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/gps_drv.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/met.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/udc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/udc_lib.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wlan_drv_gen4m.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_chrdev_wifi.ko \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/modules_prebuilt/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_drv.ko \
     vendor/xiaomi/merlin/proprietary/vendor/lib/ov13b10_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13b10_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/ov13b10_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13b10_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/s5k4h7yx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7yx_mipi_raw_tuning.so \
