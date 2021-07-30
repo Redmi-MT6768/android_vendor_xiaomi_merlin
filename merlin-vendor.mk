@@ -6,6 +6,40 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/merlin
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/merlin/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
+    vendor/xiaomi/merlin/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
+    vendor/xiaomi/merlin/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
+    vendor/xiaomi/merlin/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
+    vendor/xiaomi/merlin/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
+    vendor/xiaomi/merlin/proprietary/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
+    vendor/xiaomi/merlin/proprietary/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
+    vendor/xiaomi/merlin/proprietary/lib/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_rtp.so \
+    vendor/xiaomi/merlin/proprietary/lib/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_socketwrapper.so \
+    vendor/xiaomi/merlin/proprietary/lib/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_service.so \
+    vendor/xiaomi/merlin/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
+    vendor/xiaomi/merlin/proprietary/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
+    vendor/xiaomi/merlin/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
+    vendor/xiaomi/merlin/proprietary/lib/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsignal.so \
+    vendor/xiaomi/merlin/proprietary/lib/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsink.so \
+    vendor/xiaomi/merlin/proprietary/lib/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsource.so \
+    vendor/xiaomi/merlin/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
+    vendor/xiaomi/merlin/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
+    vendor/xiaomi/merlin/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
+    vendor/xiaomi/merlin/proprietary/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.0.so \
+    vendor/xiaomi/merlin/proprietary/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/xiaomi/merlin/proprietary/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/xiaomi/merlin/proprietary/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.3.so \
+    vendor/xiaomi/merlin/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
+    vendor/xiaomi/merlin/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
+    vendor/xiaomi/merlin/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
+    vendor/xiaomi/merlin/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
+    vendor/xiaomi/merlin/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
+    vendor/xiaomi/merlin/proprietary/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mms@1.0.so \
+    vendor/xiaomi/merlin/proprietary/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/xiaomi/merlin/proprietary/lib64/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/xiaomi/merlin/proprietary/lib64/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mms@1.3.so \
+    vendor/xiaomi/merlin/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/merlin/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/bin/CFR_para2_J15_Macro_2M_v515.bin:$(TARGET_COPY_OUT_VENDOR)/bin/CFR_para2_J15_Macro_2M_v515.bin \
     vendor/xiaomi/merlin/proprietary/vendor/bin/CFR_para2_J15_UW_v504.bin:$(TARGET_COPY_OUT_VENDOR)/bin/CFR_para2_J15_UW_v504.bin \
     vendor/xiaomi/merlin/proprietary/vendor/bin/FFU_FW_HW_M.1.B.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_FW_HW_M.1.B.BIN \
@@ -1525,6 +1559,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 
 PRODUCT_PACKAGES += \
+    ImsService \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
     manifest_android.hardware.gpu@1.0-service \
     android.hardware.wifi.hostapd \
     android.hardware.wifi@1.0-service \
