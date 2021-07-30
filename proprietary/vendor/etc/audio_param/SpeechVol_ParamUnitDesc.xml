@@ -7,20 +7,32 @@
 			<Category name="SWB" alias="Super Wide Band"/>
 		</CategoryType>
 		<CategoryType name="Profile">
-			<Category name="RCV" wording="Receiver" alias="Normal,Handset"/>
-			<Category name="RCV_SV" wording="Receiver_SV" alias="Handset_SV"/>
-			<Category name="HAC"/>
-			<Category name="HS" wording="Headset" alias="Headset,4_pole_Headset"/>
+			<Category name="RCV" wording="Receiver" alias="Normal,Handset,HANDSET_PATH"/>
+			<Category name="RCV_SV" wording="Receiver_SV" alias="Handset_SV,HANDSET_EV_PATH"/>
+			<Category name="RCV_EMERGENCY" wording="Receiver" alias="HANDSET_EMERGENCY_PATH"/>
+			<Category name="RCV_2MIC" wording="Receiver" alias="HANDSET_2MIC_PATH"/>
+			<Category name="RCV_2MICEV" wording="Receiver" alias="HANDSET_2MICEV_PATH"/>
+			<Category name="HAC" alias="HANDSETHAC_PATH"/>
+			<Category name="HS" wording="Headset" alias="Headset,4_pole_Headset,HEADSET_PATH"/>
 			<Category name="HP" wording="Headphone" alias="3_pole_Headset"/>
-			<Category name="SPK" wording="Speaker" alias="Hands-free,1-mic NR,2-mic NR,Handsfree,MagiConference"/>
-			<Category name="SPK_SV" wording="Speaker_SV" alias="Handsfree_SV"/>
-			<Category name="HS5POLE" wording="Headset(5-pole)" alias="5_pole_Headset,5-pole headset"/>
+			<Category name="SPK" wording="Speaker" alias="Hands-free,1-mic NR,2-mic NR,Handsfree,MagiConference,SPEAKER_PHONE_PATH"/>
+			<Category name="SPK_SV" wording="Speaker_SV" alias="Handsfree_SV,SPK_EV_PATH"/>
+			<Category name="SPK_EMERGENCY" wording="Speaker" alias="SPEAKER_EMERGENCY_PATH"/>
+			<Category name="SPK_2MIC" wording="Speaker" alias="SPK_2MIC_PATH"/>
+			<Category name="SPK_2MICEV" wording="Speaker" alias="SPK_2MICEV_PATH"/>
+			<Category name="HS5POLE" wording="Headset(5-pole)" alias="5_pole_Headset,5-pole headset,TP5PI_PATH"/>
 			<Category name="HS5POLE_ANC" wording="Headset(5-pole+ANC)" alias="5_pole_Headset+ANC"/>
-			<Category name="TTY" alias="Tty_HCO_Handset,Tty_VCO_Handset,Tty_HCO_Handsfree,Tty_VCO_Handsfree"/>
-			<Category name="LPBK_RCV" wording="Lpbk_Handset" alias="Lpbk_Handset"/>
-			<Category name="LPBK_HP" wording="Lpbk_Headset" alias="Lpbk_Headset"/>
-			<Category name="LPBK_SPK" wording="Lpbk_Handsfree" alias="Lpbk_Handsfree"/>
+			<Category name="TTY" alias="Tty_HCO_Handset,Tty_VCO_Handset,Tty_HCO_Handsfree,Tty_VCO_Handsfree,TTY_PATH"/>
+			<Category name="LPBK_RCV" wording="Lpbk_Handset" alias="Lpbk_Handset,LOOPBACK_HANDSET_PATH"/>
+			<Category name="LPBK_HP" wording="Lpbk_Headset" alias="Lpbk_Headset,LOOPBACK_HEADSET_PATH"/>
+			<Category name="LPBK_SPK" wording="Lpbk_Handsfree" alias="Lpbk_Handsfree,LOOPBACK_SPEAKER_PATH"/>
+			<Category name="LPBK_NODELAY_HP_MIC1" wording="Lpbk_Headset" alias="LOOPBACK_NODELAY_HEADSET_MIC1,Lpbk_Nodelay_Headset_Mic1"/>
+			<Category name="LPBK_NODELAY_HP_MIC2" wording="Lpbk_Headset" alias="LOOPBACK_NODELAY_HEADSET_MIC2,Lpbk_Nodelay_Headset_Mic2"/>
+			<Category name="LPBK_NODELAY_HP_MIC3" wording="Lpbk_Headset" alias="LOOPBACK_NODELAY_HEADSET_MIC3,Lpbk_Nodelay_Headset_Mic3"/>
 			<Category name="USB" alias="Usb_Headset"/>
+			<Category name="HEARING_AID" alias="HEARING_AID"/>
+			<Category name="BT" alias="BT_Earphone,BT_NREC_Off,BLUETOOTH_PATH,STEREO_BLUETOOTH_PATH,BT_NSEC_OFF_PATH,BLUETOOTH_16_PATH,BT_NSEC_OFF_16_PATH,BT_NREC_On_NB,BT_NREC_On_WB"/>
+			<Category name="MISC" alias="HFK_PATH,CALLFWD_PATH,SLD_PATH,SPEAKERDOCK_PATH,SPEAKERDOCK_EV_PATH"/>
 		</CategoryType>
 		<CategoryType name="Network">
 			<Category name="GSM" />

@@ -211,7 +211,8 @@
             <Field name="75Hz high-pass IIR" array_index="3" bit="12,12"                                check_list="0,122Hz,1,75Hz"/>
             <Field name="comfort noise" array_index="4" bit="14,14"                                     check_list="0,off,1,on"/>
             <Field name="comfort noise level" array_index="10" bit="12,12"                              check_list="0,+0dB,1,-18dB"/>
-            <Field name="FIR/IIR switch" array_index="10" bit="2,2"                                     check_list="0,FIR,1,IIR"/>
+            <Field name="TX IIR switch" array_index="10" bit="2,2"                                      check_list="0,off,1,on"/>
+            <Field name="TX FIR switch" array_index="10" bit="3,3"                                      check_list="0,on,1,off"/>
             <Field name="TX GDRC DG Gain switch" array_index="5" bit="6,6"                              check_list="0,off,1,on"/>
             <Field name="TCLW switch" array_index="11" bit="6,6"                                        check_list="0,off,1,on"/>
             <Field name="TCLW noise suppress level" array_index="11" bit="7,8"                          check_list="0,3,1,6,2,9,3,12"/>
@@ -301,10 +302,15 @@
             <Field name="Mic siwtch algorithm 2k~4kHz energy threshold" array_index="31" bit="14,15"                       check_list="0,-9 dB,1,-12 dB,2,-7.5 dB,3,-6 dB"/>
             <!-- MagiLoudness/MagiClarity -->
             <Field name="RX expander mode" array_index="5" bit="0,1"                                    check_list="0,off,1,off,2,suppress stationary noise,3,suppress non-stationary noise"/>
+            <Field name="DL expander suppression gain" array_index="5" bit="4,5"                        check_list="0,3dB,1,9dB,2,12dB,3,15dB"/>
             <Field name="DL Limiter TH" array_index="5" bit="2,3"                                       check_list="0,off,1,-6 dBFS,2,-4.3 dBFS,3,-1.4 dBFS"/>
             <Field name="RMS power limiter thd" array_index="5" bit="10,11"                             check_list="0,off,1,-7dBFs,2,-10dBFs,3,-14dBFs"/>
+            <Field name="LPF" array_index="5" bit="15,15"                                               check_list="0,off,1,on"/>
             <Field name="20ms delay" array_index="6" bit="15,15"                                        check_list="0,off,1,on"/>
+            <Field name="RX HP filter cutoff freq (IIR)" array_index="8" bit="0,2"                      check_list="0,all-pass,1,100Hz,2,150Hz,3,200Hz,4,250Hz,5,300Hz,6,350Hz,7,400Hz"/>
             <Field name="DL IIR cut off frequency" array_index="8" bit="0,2"                            check_list="0,all-pass,1,100Hz,2,150Hz,3,200Hz,4,250Hz,5,300Hz,6,350Hz,7,400Hz"/>
+            <Field name="RX IIR switch" array_index="10" bit="4,4"                                      check_list="0,off,1,on"/>
+            <Field name="RX FIR switch" array_index="10" bit="5,5"                                      check_list="0,off,1,on"/>
             <Field name="RX GDRC DG Gain switch" array_index="5" bit="6,6"                              check_list="0,off,1,on"/>
             <Field name="VCE strength" array_index="8" bit="3,3"                                                     check_list="0,original gain-6dB,1,original gain"/>
             <Field name="VCE noise threshold" array_index="8" bit="4,5"                                 check_list="0,22dB,1,19dB,2,16dB,3,13dB"/>

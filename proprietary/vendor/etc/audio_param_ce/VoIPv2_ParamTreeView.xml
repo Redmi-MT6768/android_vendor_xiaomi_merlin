@@ -9,7 +9,8 @@
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="75Hz high-pass IIR"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="comfort noise"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="comfort noise level"/>
-				<Field audio_type="VoIPv2" param="speech_mode_para" name="FIR/IIR switch"/>
+				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX IIR switch"/>
+				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX FIR switch"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX GDRC DG Gain switch"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TCLW switch"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TCLW noise suppress level"/>
@@ -142,7 +143,7 @@
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX NR suppression strength"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX Adaptive gain control"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX mute 1s"/>
-				<Field audio_type="Speech" param="speech_mode_para" name="TX NR Init 100ms"/>
+				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX NR Init 100ms"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX Ambient noise calibration"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX Handfree Tone Detection"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX expander switch"/>
@@ -150,7 +151,7 @@
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="TX NR Noise Adaption Rate"/>
 			</FieldList>
 			<CategoryPathList>
-				<Category path=""/>
+				<Category path="Handsfree"/>
 			</CategoryPathList>
 		</Feature>
 		<Feature name="MagiDualNR: 14.4">
@@ -399,14 +400,12 @@
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX expander mode"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="DL Limiter TH"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="DL expander suppression gain"/>
-				<Field audio_type="VoIPv2" param="speech_mode_para" name="CC mode"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="RMS power limiter thd"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="20ms delay"/>
-				<Field audio_type="VoIPv2" param="speech_mode_para" name="CC/VCE switch"/>
-				<Field audio_type="VoIPv2" param="speech_mode_para" name="Hard clipping"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="LPF"/>
-				<Field audio_type="VoIPv2" param="speech_mode_para" name="FIR/IIR switch"/>
-				<Field audio_type="VoIPv2" param="speech_mode_para" name="DL HP filter cutoff freq (IIR)"/>
+				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX IIR switch"/>
+				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX FIR switch"/>
+				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX HP filter cutoff freq (IIR)"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX GDRC DG Gain switch"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="VCE strength"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="VCE noise threshold"/>
@@ -449,7 +448,7 @@
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX expander suppression gain"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX Comfort Noise Switch"/>
 				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX Comfort Noise Level"/>
-				<Field audio_type="Speech" param="speech_mode_para" name="RX NR Noise Adaption Rate"/>
+				<Field audio_type="VoIPv2" param="speech_mode_para" name="RX NR Noise Adaption Rate"/>
 			</FieldList>
 			<CategoryPathList>
 				<Category path=""/>

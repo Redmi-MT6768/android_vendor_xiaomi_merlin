@@ -5,4 +5,9 @@ service netdagent /vendor/bin/netdagent
     group net_admin net_raw system misc
     capabilities NET_ADMIN NET_RAW
 
+on init
+    setprop ro.vendor.net.upload.benchmark.default blocking
+
+on property:persist.vendor.operator.optr=OP12
+    write /proc/sys/net/optr 12
 

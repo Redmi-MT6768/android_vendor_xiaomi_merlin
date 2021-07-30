@@ -42,6 +42,7 @@
     <Param path="Customization2,BT earphone" param_id="0"/>
     <Param path="CUSTOMIZATION3,BT earphone" param_id="0"/>
     <Param path="FastRecord,BT earphone" param_id="0"/>
+    <Param path="IncallRecord" param_id="0"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">

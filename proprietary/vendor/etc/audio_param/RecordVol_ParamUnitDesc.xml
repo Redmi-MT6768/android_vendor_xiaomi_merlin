@@ -11,7 +11,7 @@
 			<Category name="Sound recording" alias="SndRecNormal,SndRecLecture,SndRecMeeting"/>
 			<Category name="Camera recording" alias="CamRecNormal,CamRecMeeting"/>
 			<Category name="CUSTOMIZATION1" wording="ASR improvement" alias="ASR"/>
-			<Category name="VR" wording="Voice recognition &amp; CTS verifier"/>
+			<Category name="VR" wording="Voice recognition"/>
 			<Category name="VoicePerformance" wording="Voice performance recording"/>
 			<!-- not tunable -->
 			<Category name="VOICE_UNLOCK" alias="VoiceUnLk"/>

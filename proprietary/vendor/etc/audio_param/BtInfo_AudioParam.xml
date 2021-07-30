@@ -6,11 +6,11 @@
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
-      <Param name="voip_ap_delay_ms" value="0"/>
+      <Param name="voip_ap_delay_ms" value="200"/>
       <Param name="voice_cp_delay_ms" value="200"/>
     </ParamUnit>
     <ParamUnit param_id="1">
-      <Param name="voip_ap_delay_ms" value="100"/>
+      <Param name="voip_ap_delay_ms" value="200"/>
       <Param name="voice_cp_delay_ms" value="200"/>
     </ParamUnit>
   </ParamUnitPool>

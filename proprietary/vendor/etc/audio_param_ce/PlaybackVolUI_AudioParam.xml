@@ -17,6 +17,7 @@
     <Param path="Ring_Alarm,BT_A2DP" param_id="5"/>
     <Param path="Ring_Alarm,BT_A2DP_HP" param_id="5"/>
     <Param path="Ring_Alarm,BT_A2DP_SPK" param_id="5"/>
+    <Param path="Ring_Alarm,HEARING_AID" param_id="6"/>
     <Param path="Others,RCV" param_id="4"/>
     <Param path="Others,HS" param_id="1"/>
     <Param path="Others,SPK_INT" param_id="2"/>
@@ -33,6 +34,7 @@
     <Param path="Others,BT_A2DP" param_id="5"/>
     <Param path="Others,BT_A2DP_HP" param_id="5"/>
     <Param path="Others,BT_A2DP_SPK" param_id="5"/>
+    <Param path="Others,HEARING_AID" param_id="6"/>
     <Param path="Notification,RCV" param_id="4"/>
     <Param path="Notification,HS" param_id="1"/>
     <Param path="Notification,SPK_INT" param_id="2"/>
@@ -49,6 +51,7 @@
     <Param path="Notification,BT_A2DP" param_id="5"/>
     <Param path="Notification,BT_A2DP_HP" param_id="5"/>
     <Param path="Notification,BT_A2DP_SPK" param_id="5"/>
+    <Param path="Notification,HEARING_AID" param_id="6"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -86,6 +89,12 @@
       <Param name="headset_pga_visibility" value="-1"/>
       <Param name="speaker_pga_visibility" value="-1"/>
       <Param name="receiver_pga_visibility" value="-1"/>
+    </ParamUnit>
+    <ParamUnit param_id="6">
+      <Param name="digital_gain_visibility" value="1"/>
+      <Param name="headset_pga_visibility" value="0"/>
+      <Param name="speaker_pga_visibility" value="0"/>
+      <Param name="receiver_pga_visibility" value="0"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

@@ -15,6 +15,9 @@
     <Param path="BT" param_id="0"/>
     <Param path="TTY" param_id="0"/>
     <Param path="USB" param_id="1"/>
+    <Param path="HEARING_AID" param_id="1"/>
+    <Param path="MISC" param_id="0"/>
+    <Param path="SPKDOCK" param_id="0"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">

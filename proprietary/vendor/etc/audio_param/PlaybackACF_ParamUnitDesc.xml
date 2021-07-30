@@ -8,7 +8,7 @@
 		</CategoryType>
 		<CategoryType name="Volume type">
 			<Category name="Ring"/>
-			<Category name="Music" alias="System,Ring,Alarm,Notification,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility"/>
+			<Category name="Music" alias="System,Ring,Alarm,Notification,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility,Assistant"/>
 		</CategoryType>
 		<CategoryType name="Profile">
 			<Category name="Headset" alias="3-pole headset,4-pole headset,5-pole headset,HS5POLE,5-pole headset+ANC"/>

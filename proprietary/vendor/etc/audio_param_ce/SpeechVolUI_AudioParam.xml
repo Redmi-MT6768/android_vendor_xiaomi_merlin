@@ -11,6 +11,9 @@
     <Param path="HAC" param_id="2"/>
     <Param path="TTY" param_id="4"/>
     <Param path="USB" param_id="5"/>
+    <Param path="HEARING_AID" param_id="2"/>
+    <Param path="BT" param_id="6"/>
+    <Param path="MISC" param_id="6"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -42,6 +45,11 @@
       <Param name="dl_gain_visibility" value="1"/>
       <Param name="ul_gain_visibility" value="1"/>
       <Param name="stf_gain_visibility" value="-1"/>
+    </ParamUnit>
+    <ParamUnit param_id="6">
+      <Param name="dl_gain_visibility" value="0"/>
+      <Param name="ul_gain_visibility" value="0"/>
+      <Param name="stf_gain_visibility" value="0"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

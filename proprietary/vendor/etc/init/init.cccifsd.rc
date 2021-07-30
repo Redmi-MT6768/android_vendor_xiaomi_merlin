@@ -12,6 +12,9 @@ on post-fs-data
     mkdir /data/vendor/md3 0770 system radio
     restorecon /data/vendor/md3
 
+    mkdir /data/vendor_de/md 0770 system radio
+    restorecon /data/vendor_de/md
+
     restorecon_recursive /mnt/vendor/protect_f
     restorecon_recursive /mnt/vendor/protect_s
 
@@ -21,7 +24,7 @@ on post-fs-data
 
 service vendor.ccci_fsd /vendor/bin/ccci_fsd 0
     user radio
-    group radio system root
+    group radio system
     class core
     priority -20
     ioprio rt 4

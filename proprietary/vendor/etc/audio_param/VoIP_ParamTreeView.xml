@@ -5,7 +5,7 @@
 		<Feature name="TX DRC">
 			<FieldList>
 				<Field audio_type="VoIP" param="voip_mode_para" name="UL Limiter TH"/>
-				<Field audio_type="Speech" param="speech_mode_para" name="UL IIR cut off frequency"/>
+				<Field audio_type="VoIP" param="speech_mode_para" name="UL IIR cut off frequency"/>
 				<Field audio_type="VoIP" param="voip_mode_para" name="IIR switch"/>
 				<Field audio_type="VoIP" param="voip_mode_para" name="75Hz high-pass IIR"/>
 				<Field audio_type="VoIP" param="voip_mode_para" name="comfort noise"/>

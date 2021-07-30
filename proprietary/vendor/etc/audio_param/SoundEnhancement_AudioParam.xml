@@ -5,8 +5,8 @@
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
-      <Param name="besloudness" value="2"/>
-      <Param name="hifi_audio" value="0"/>
+      <Param name="besloudness" value="0"/>
+      <Param name="hifi_audio" value="1"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

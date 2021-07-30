@@ -13,7 +13,7 @@
 			<Category name="CamRecNormal" wording="Camera recording"/>
 			<Category name="CamRecMeeting" wording="Meeting" visible="false"/>
 			<Category name="ASR" wording="ASR improvement" visible="false"/>
-			<Category name="VR" wording="Voice recognition &amp; CTS verifier" />
+			<Category name="VR" wording="Voice recognition" />
 			<Category name="VoiceUnLk" visible="false" />
 			<Category name="Customization2" visible="false"/>
 			<Category name="FastRecord" visible="true"/>

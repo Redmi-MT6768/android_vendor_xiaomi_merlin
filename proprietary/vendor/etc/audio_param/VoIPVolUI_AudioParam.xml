@@ -10,6 +10,7 @@
     <Param path="HS5POLE" param_id="0"/>
     <Param path="HS5POLE_ANC" param_id="0"/>
     <Param path="USB" param_id="2"/>
+    <Param path="HEARING_AID" param_id="2"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">

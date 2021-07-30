@@ -473,11 +473,11 @@
 <spnOverride numeric="40430" spn="Vodafone IN"/>
 <spnOverride numeric="40431" spn="IND airtel"/>
 <spnOverride numeric="40433" spn="Aircel"/>
-<spnOverride numeric="40434" spn="CellOne"/>
+<spnOverride numeric="40434" spn="BSNL Mobile"/>
 <spnOverride numeric="40435" spn="Aircel"/>
 <spnOverride numeric="40436" spn="Reliance"/>
 <spnOverride numeric="40437" spn="Aircel"/>
-<spnOverride numeric="40438" spn="CellOne"/>
+<spnOverride numeric="40438" spn="BSNL Mobile"/>
 <spnOverride numeric="40440" spn="IND airtel"/>
 <spnOverride numeric="40441" spn="AIRCEL"/>
 <spnOverride numeric="40442" spn="AIRCEL"/>
@@ -487,34 +487,34 @@
 <spnOverride numeric="40446" spn="Vodafone IN"/>
 <spnOverride numeric="40449" spn="IND airtel"/>
 <spnOverride numeric="40450" spn="Reliance"/>
-<spnOverride numeric="40451" spn="CellOne"/>
+<spnOverride numeric="40451" spn="BSNL Mobile"/>
 <spnOverride numeric="40452" spn="Reliance"/>
-<spnOverride numeric="40453" spn="CellOne"/>
-<spnOverride numeric="40454" spn="CellOne"/>
-<spnOverride numeric="40455" spn="CellOne"/>
+<spnOverride numeric="40453" spn="BSNL Mobile"/>
+<spnOverride numeric="40454" spn="BSNL Mobile"/>
+<spnOverride numeric="40455" spn="BSNL Mobile"/>
 <spnOverride numeric="40456" spn="IDEA"/>
-<spnOverride numeric="40457" spn="CellOne"/>
-<spnOverride numeric="40458" spn="CellOne"/>
-<spnOverride numeric="40459" spn="CellOne"/>
+<spnOverride numeric="40457" spn="BSNL Mobile"/>
+<spnOverride numeric="40458" spn="BSNL Mobile"/>
+<spnOverride numeric="40459" spn="BSNL Mobile"/>
 <spnOverride numeric="40460" spn="Vodafone IN"/>
-<spnOverride numeric="40462" spn="CellOne"/>
-<spnOverride numeric="40464" spn="CellOne"/>
-<spnOverride numeric="40466" spn="CellOne"/>
+<spnOverride numeric="40462" spn="BSNL Mobile"/>
+<spnOverride numeric="40464" spn="BSNL Mobile"/>
+<spnOverride numeric="40466" spn="BSNL Mobile"/>
 <spnOverride numeric="40467" spn="Reliance"/>
 <spnOverride numeric="40468" spn="IN-DOLPHIN"/>
 <spnOverride numeric="40469" spn="IN-DOLPHIN"/>
 <spnOverride numeric="40470" spn="IND airtel"/>
-<spnOverride numeric="40471" spn="CellOne"/>
-<spnOverride numeric="40472" spn="CellOne"/>
-<spnOverride numeric="40473" spn="CellOne"/>
-<spnOverride numeric="40474" spn="CellOne"/>
-<spnOverride numeric="40475" spn="CellOne"/>
-<spnOverride numeric="40476" spn="CellOne"/>
-<spnOverride numeric="40477" spn="CellOne"/>
+<spnOverride numeric="40471" spn="BSNL Mobile"/>
+<spnOverride numeric="40472" spn="BSNL Mobile"/>
+<spnOverride numeric="40473" spn="BSNL Mobile"/>
+<spnOverride numeric="40474" spn="BSNL Mobile"/>
+<spnOverride numeric="40475" spn="BSNL Mobile"/>
+<spnOverride numeric="40476" spn="BSNL Mobile"/>
+<spnOverride numeric="40477" spn="BSNL Mobile"/>
 <spnOverride numeric="40478" spn="IDEA"/>
-<spnOverride numeric="40479" spn="CellOne"/>
-<spnOverride numeric="40480" spn="CellOne"/>
-<spnOverride numeric="40481" spn="CellOne"/>
+<spnOverride numeric="40479" spn="BSNL Mobile"/>
+<spnOverride numeric="40480" spn="BSNL Mobile"/>
+<spnOverride numeric="40481" spn="BSNL Mobile"/>
 <spnOverride numeric="40482" spn="IDEA"/>
 <spnOverride numeric="40483" spn="Reliance"/>
 <spnOverride numeric="40484" spn="Vodafone IN"/>

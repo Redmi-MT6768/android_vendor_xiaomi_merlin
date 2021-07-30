@@ -19,6 +19,7 @@
 			<Category name="Boot"/>
 			<Category name="VIBSPK"/>
 			<Category name="Accessibility"/>
+			<Category name="Assistant"/>
 			<!--<Category name="MATV" feature_option="MATV_AUDIO_SUPPORT"/>-->
 		</CategoryType>
 		<CategoryType name="Profile">
@@ -29,7 +30,7 @@
 			<Category name="HS5POLE" alias="5-pole Headset"/>
 			<Category name="HS5POLE_ANC" alias="5-pole headset+ANC"/>
 			<Category name="USB"/>
-
+			<Category name="HEARING_AID"/>
             <Category name="BT_A2DP" alias="BT A2DP"/>
 			<Category name="BT_A2DP_HP" alias="BT A2DP HP"/>
 			<Category name="BT_A2DP_SPK" alias="BT A2DP SPK"/>

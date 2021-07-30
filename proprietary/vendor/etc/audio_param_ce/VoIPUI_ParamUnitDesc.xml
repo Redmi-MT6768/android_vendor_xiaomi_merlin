@@ -18,6 +18,7 @@
 			</CategoryGroup>
 			<Category name="BT earphone" alias="BT_NREC_Off" wording="Bluetooth"/>
 			<Category name="USB"/>
+			<Category name="HEARING_AID"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

@@ -9,7 +9,7 @@
 		<CategoryType name="Volume type">
 			<Category name="Ring_Alarm" alias="Ring,Alarm"/>
 			<Category name="Notification"/>
-			<Category name="Others" alias="System,Music,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility"/>
+			<Category name="Others" alias="System,Music,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility,Assistant"/>
 		</CategoryType>
 		<CategoryType name="Profile">
 			<Category name="RCV"/>
@@ -19,6 +19,7 @@
 			<Category name="HS5POLE" alias="5-pole Headset"/>
 			<Category name="HS5POLE_ANC" alias="5-pole headset+ANC"/>
 			<Category name="USB"/>
+			<Category name="HEARING_AID"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

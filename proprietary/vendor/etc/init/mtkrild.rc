@@ -9,10 +9,19 @@ service vendor.ril-daemon-mtk /vendor/bin/hw/mtkfusionrild -l libmtk-ril.so
     socket volte_imsvt1 stream 660 root radio
     socket rild-atci stream 660 root radio
     user radio
-    group radio cache inet misc audio log readproc wakelock sdcard_r sdcard_rw system
-    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
+    group radio net_admin net_raw cache inet misc audio log readproc wakelock sdcard_r sdcard_rw system
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW WAKE_ALARM
     oneshot
     disabled
 
 on property:vendor.ril.mtk=1
     start vendor.ril-daemon-mtk
+
+on property:vold.decrypt=trigger_restart_framework
+    start vendor.ril-daemon-mtk
+
+on property:init.svc.zygote=stopped && property:init.svc.vendor.ril-daemon-mtk=running
+    setprop vendor.ril.zygote.state "stopped"
+
+on property:init.svc.zygote=restarting && property:init.svc.vendor.ril-daemon-mtk=running
+    setprop vendor.ril.zygote.state "restarting"

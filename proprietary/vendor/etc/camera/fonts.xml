@@ -22,6 +22,8 @@
 <familyset version="23">
     <!-- first font is default -->
     <family name="sans-serif">
+        <font weight="100" style="normal">MILanPro_Regular.ttf</font>
+        <font weight="100" style="normal">Roboto_Medium.ttf</font>
         <font weight="100" style="normal">Roboto-Thin.ttf</font>
         <font weight="100" style="italic">Roboto-ThinItalic.ttf</font>
         <font weight="300" style="normal">Roboto-Light.ttf</font>

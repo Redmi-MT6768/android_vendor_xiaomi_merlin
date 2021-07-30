@@ -29,14 +29,14 @@
  <Param name="MTK_SUPPORT_TC1_TUNNING" value="" />
  <Param name="MTK_AUDIO_SPEAKER_PATH" value="smartpa_cirrus_cs35l35" />
  <Param name="MTK_AUDIO_NUMBER_OF_MIC" value="2" />
- <Param name="MTK_PLATFORM" value="mt6768" />
+ <Param name="MTK_PLATFORM" value="MT6768" />
  <Param name="MTK_AURISYS_FRAMEWORK_SUPPORT" value="yes" />
  <Param name="MTK_BESLOUDNESS_RUN_WITH_HAL" value="no" />
  <Param name="MTK_AUDIO" value="yes" />
  <Param name="USE_CUSTOM_AUDIO_POLICY" value="" />
  <Param name="USE_XML_AUDIO_POLICY_CONF" value="1" />
  <Param name="MTK_AUDIO_TUNING_TOOL_VERSION" value="V2.2" />
- <Param name="MTK_AUDIO_TUNNELING_SUPPORT" value="no" />
+ <Param name="MTK_AUDIO_TUNNELING_SUPPORT" value="" />
  <Param name="MTK_SMARTPA_DUMMY_LIB" value="" />
  <Param name="MTK_HIFIAUDIO_SUPPORT" value="no" />
  <Param name="MTK_BESLOUDNESS_SUPPORT" value="yes" />
@@ -44,6 +44,9 @@
  <Param name="MTK_AUDIO_NUMBER_OF_SPEAKER" value="1" />
  <Param name="MTK_A2DP_OFFLOAD_SUPPORT" value="no" />
  <Param name="MTK_TTY_SUPPORT" value="yes" />
+ <Param name="MTK_AUDIO_A2DP_LATENCY_IMPROVE" value="no" />
+ <Param name="MTK_BT_HEARING_AID_SUPPORT" value="no" />
+ <Param name="MTK_VOW_MAX_PDK_NUMBER" value="" />
  <Param name="VIR_WIFI_ONLY_SUPPORT" value="no" />
  <Param name="VIR_3G_DATA_ONLY_SUPPORT" value="no" />
  <Param name="VIR_ASR_SUPPORT" value="no" />

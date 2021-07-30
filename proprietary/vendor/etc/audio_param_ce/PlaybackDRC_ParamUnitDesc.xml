@@ -8,7 +8,7 @@
 		</CategoryType>
 		<CategoryType name="Volume type">
 			<Category name="Ring"/>
-			<Category name="Music" alias="System,Alarm,Notification,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility"/>
+			<Category name="Music" alias="System,Alarm,Notification,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility,Assistant"/>
 	</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

@@ -16,6 +16,7 @@
 			<Category name="HS5POLE" alias="5_pole_Headset,5-pole headset"/>
 			<Category name="HS5POLE_ANC" alias="5-pole headset+ANC,5_pole_Headset+ANC"/>
 			<Category name="USB" alias="Usb_Headset"/>
+			<Category name="HEARING_AID" alias="HEARING_AID"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

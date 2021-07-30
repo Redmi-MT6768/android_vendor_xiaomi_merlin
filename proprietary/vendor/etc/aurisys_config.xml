@@ -118,7 +118,7 @@
             <components>
                 <!-- for aurisys_scene playback normal -->
                 <component aurisys_scenario="AURISYS_SCENARIO_PLAYBACK_NORMAL"
-                           sample_rate="44100,48000"
+                           sample_rate="44100,48000,96000"
                            audio_format="AUDIO_FORMAT_PCM_32_BIT"
                            frame_size_ms="10"
                            b_interleave="0"
@@ -135,7 +135,7 @@
                 </component>
                 <!-- for aurisys_scene playback fast -->
                 <component aurisys_scenario="AURISYS_SCENARIO_PLAYBACK_LOW_LATENCY"
-                           sample_rate="44100,48000"
+                           sample_rate="44100,48000,96000"
                            audio_format="AUDIO_FORMAT_PCM_32_BIT"
                            frame_size_ms="1"
                            b_interleave="0"

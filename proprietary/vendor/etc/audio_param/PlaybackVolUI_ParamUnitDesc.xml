@@ -9,7 +9,7 @@
 		<CategoryType name="Volume type">
 			<Category name="Ring_Alarm" alias="Ring,Alarm"/>
 			<Category name="Notification"/>
-			<Category name="Others" alias="System,Music,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility"/>
+			<Category name="Others" alias="System,Music,Bluetooth_sco,Enforced_Audible,DTMF,TTS,Boot,VIBSPK,Accessibility,Assistant"/>
 		</CategoryType>
 		<CategoryType name="Profile" wording="Device">
 			<Category name="RCV"/>
@@ -32,6 +32,7 @@
 			<Category name="BT_A2DP" alias="BT A2DP"/>
 			<Category name="BT_A2DP_HP" alias="BT A2DP HP"/>
 			<Category name="BT_A2DP_SPK" alias="BT A2DP SPK"/>
+			<Category name="HEARING_AID"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

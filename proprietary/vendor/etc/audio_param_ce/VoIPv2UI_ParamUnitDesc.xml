@@ -36,6 +36,7 @@
 		<Param name="DL NR visibility" type="int"/>
 		<Param name="DL Digital Gain visibility" type="int"/>
 		<Param name="DL Limiter TH visibility" type="int"/>
+		<Param name="DL IIR visibility" type="int"/>
 		<Param name="UL FIR visibility" type="int"/>
 		<Param name="UL DRC+DG visibility" type="int"/>
 		<Param name="UL NREC visibility" type="int"/>
@@ -48,5 +49,8 @@
 		<Param name="UL AES LB visibility" type="int"/>
 		<Param name="UL DMNR mode_param visibility" type="int"/>
 		<Param name="UL DMNR common_param visibility" type="int"/>
+		<Param name="UL IIR visibility" type="int"/>
+		<Param name="UL MIC IIR visibility" type="int"/>
+		<Param name="DV visibility" type="int"/>
 	</ParamUnit>
 </ParamUnitDesc>

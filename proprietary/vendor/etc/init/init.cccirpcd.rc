@@ -1,6 +1,4 @@
 #
-on property:ro.config.low_ram=true
-    stop vendor.ccci_rpcd
 
 service vendor.ccci_rpcd /vendor/bin/ccci_rpcd 0
     user radio

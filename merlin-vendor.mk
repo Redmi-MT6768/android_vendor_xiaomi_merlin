@@ -6,16 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/merlin
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarmnn_ndk.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcmdl_ndk.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib/libneuron_opencv_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libneuron_opencv_delegate.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libneuronusdk_adapter.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnir_neon_driver_ndk.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib64/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarmnn_ndk.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcmdl_ndk.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib64/libneuron_opencv_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_opencv_delegate.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
-    vendor/xiaomi/merlin/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/bin/CFR_para2_J15_Macro_2M_v515.bin:$(TARGET_COPY_OUT_VENDOR)/bin/CFR_para2_J15_Macro_2M_v515.bin \
     vendor/xiaomi/merlin/proprietary/vendor/bin/CFR_para2_J15_UW_v504.bin:$(TARGET_COPY_OUT_VENDOR)/bin/CFR_para2_J15_UW_v504.bin \
     vendor/xiaomi/merlin/proprietary/vendor/bin/FFU_FW_HW_M.1.B.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_FW_HW_M.1.B.BIN \
@@ -26,7 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/LDC_packdata_xiaomi_C3_src1_3264x2448_v4_20190730.dat:$(TARGET_COPY_OUT_VENDOR)/bin/LDC_packdata_xiaomi_C3_src1_3264x2448_v4_20190730.dat \
     vendor/xiaomi/merlin/proprietary/vendor/bin/LDC_packdata_xiaomi_J15_Ofilm_3264x2448_v2_20200305.dat:$(TARGET_COPY_OUT_VENDOR)/bin/LDC_packdata_xiaomi_J15_Ofilm_3264x2448_v2_20200305.dat \
     vendor/xiaomi/merlin/proprietary/vendor/bin/LDC_packdata_xiaomi_J15_Sunny_3264x2448_v2_20200305.dat:$(TARGET_COPY_OUT_VENDOR)/bin/LDC_packdata_xiaomi_J15_Sunny_3264x2448_v2_20200305.dat \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/PcbaConfigSet:$(TARGET_COPY_OUT_VENDOR)/bin/PcbaConfigSet \
     vendor/xiaomi/merlin/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
     vendor/xiaomi/merlin/proprietary/vendor/bin/Turquoise_FW_Version_0x0203.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/Turquoise_FW_Version_0x0203.BIN \
     vendor/xiaomi/merlin/proprietary/vendor/bin/Vincent_V4_MLC_64GB_Bridge_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/Vincent_V4_MLC_64GB_Bridge_P08.bin \
@@ -52,34 +41,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/xiaomi/merlin/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/xiaomi/merlin/proprietary/vendor/bin/factory_bin:$(TARGET_COPY_OUT_VENDOR)/bin/factory_bin \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/flashlessd:$(TARGET_COPY_OUT_VENDOR)/bin/flashlessd \
     vendor/xiaomi/merlin/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/xiaomi/merlin/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/xiaomi/merlin/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/gsort:$(TARGET_COPY_OUT_VENDOR)/bin/gsort \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-mediatek \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-mediatek \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.beanpod \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/displayfeaturecontrol:$(TARGET_COPY_OUT_VENDOR)/bin/hw/displayfeaturecontrol \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/power_native_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_0 \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/power_native_test_v_1_1:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_1 \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dfps@1.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.gpu@1.0-service \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keyinstall@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keyinstall@1.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.5-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.capi@2.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.soter@1.0-service \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.thh@2.0-service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
     vendor/xiaomi/merlin/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/xiaomi/merlin/proprietary/vendor/bin/initprop_bin:$(TARGET_COPY_OUT_VENDOR)/bin/initprop_bin \
@@ -96,18 +89,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
     vendor/xiaomi/merlin/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/misc_writer:$(TARGET_COPY_OUT_VENDOR)/bin/misc_writer \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mmc_ffu:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mmc_ffu_hynix:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_hynix \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mmc_ffu_micron:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_micron \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     vendor/xiaomi/merlin/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
+    vendor/xiaomi/merlin/proprietary/vendor/bin/mtk_pkm_service:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_pkm_service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
     vendor/xiaomi/merlin/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/xiaomi/merlin/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
     vendor/xiaomi/merlin/proprietary/vendor/bin/nusensors:$(TARGET_COPY_OUT_VENDOR)/bin/nusensors \
     vendor/xiaomi/merlin/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/pkm_service:$(TARGET_COPY_OUT_VENDOR)/bin/pkm_service \
     vendor/xiaomi/merlin/proprietary/vendor/bin/pnscr:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr \
     vendor/xiaomi/merlin/proprietary/vendor/bin/recordevent:$(TARGET_COPY_OUT_VENDOR)/bin/recordevent \
     vendor/xiaomi/merlin/proprietary/vendor/bin/replayevent:$(TARGET_COPY_OUT_VENDOR)/bin/replayevent \
@@ -116,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
     vendor/xiaomi/merlin/proprietary/vendor/bin/stroke:$(TARGET_COPY_OUT_VENDOR)/bin/stroke \
     vendor/xiaomi/merlin/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
-    vendor/xiaomi/merlin/proprietary/vendor/bin/testse_cold_reset:$(TARGET_COPY_OUT_VENDOR)/bin/testse_cold_reset \
     vendor/xiaomi/merlin/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/xiaomi/merlin/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     vendor/xiaomi/merlin/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
@@ -134,19 +127,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/xiaomi/merlin/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
     vendor/xiaomi/merlin/proprietary/vendor/data/misc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc.txt \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_00 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/.thermal_policy_03:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_03 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/.thermal_policy_05:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_05 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/.thermal_policy_08:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_08 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/xiaomi/merlin/proprietary/vendor/etc/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_VENDOR)/etc/Conf_MultipleTest.ini \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2006:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2006 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2006_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2006_ENUM \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2040:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2040 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2040_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2040_ENUM \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
@@ -215,8 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VOW_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VOW_AudioParam.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VOW_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VOW_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
@@ -239,6 +221,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
@@ -337,6 +323,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamTreeView.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoWDspAec_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoWDspAec_ParamUnitDesc.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoWHwVad_AudioParam.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoWHwVad_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMapUL_AudioParam.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMapUL_ParamUnitDesc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/audio_param_ce/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VolumeGainMap_AudioParam.xml \
@@ -350,6 +340,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/Roboto-Thin.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Roboto-Thin.ttf \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/fonts.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fonts.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/merlin_goldResult.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/merlin_goldResult.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/camera/mibokeh_mt6768_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_mt6768_opencl.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/camera/mibokeh_mt6768_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_mt6768_parameter.bin \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/model/bokeh_model/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/bokeh_model/cache_data \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/model/bokeh_model/model_mdl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/bokeh_model/model_mdl_cache \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/model/bokeh_model/segment_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/bokeh_model/segment_model \
@@ -363,7 +355,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/merlin/proprietary/vendor/etc/cs35l41_cal.wav:$(TARGET_COPY_OUT_VENDOR)/etc/cs35l41_cal.wav \
     vendor/xiaomi/merlin/proprietary/vendor/etc/device_features/merlin.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/merlin.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/device_features/merlinnfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/merlinnfc.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -372,15 +363,36 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/xiaomi/merlin/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Columbia.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Columbia.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Peru.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-mediatek.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -416,22 +428,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pkm_service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.keyinstall@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keyinstall@1.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/merlin/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
@@ -456,11 +471,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/xiaomi/merlin/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/merlin/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_video.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/merlin/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/xiaomi/merlin/proprietary/vendor/etc/pm_test_item_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pm_test_item_config.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sceneDetection.xml \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/00673b5b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/00673b5b.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
@@ -468,14 +484,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/10531352.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/10531352.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/111e6273.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/12d55845.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/12d55845.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/17b51fe6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/17b51fe6.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/1dcd6f4c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1dcd6f4c.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/1df5a75f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1df5a75f.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/1e1eab7c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e1eab7c.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/1e8e7201.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e8e7201.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/1eb37bdf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1eb37bdf.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/1f58a078.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1f58a078.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/21855f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/21855f49.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/219d9499.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/219d9499.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/23f4c490.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/23f4c490.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/27af790d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/27af790d.0 \
@@ -502,11 +516,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/455f1b52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/455f1b52.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/48a195d8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/48a195d8.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/4be590e0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4be590e0.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/4e18c148.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4e18c148.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/5046c355.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5046c355.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/524d9b43.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/524d9b43.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/52b525c7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/52b525c7.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/559f7c71.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/559f7c71.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/583d0756.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/583d0756.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/5a250ea7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a250ea7.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/5a3f0ff8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a3f0ff8.0 \
@@ -532,6 +544,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/85cde254.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/85cde254.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/86212b19.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/86212b19.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/869fbf79.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/869fbf79.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/87753b0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/87753b0d.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/882de061.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/882de061.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/88950faa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/88950faa.0 \
@@ -559,10 +572,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/b0ed035a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0ed035a.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/b0f3e76e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0f3e76e.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/b3fb433b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b3fb433b.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/b74d2bd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b74d2bd5.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/b7db1890.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b7db1890.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/b872f2b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b872f2b4.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/b936d1c6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b936d1c6.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/bc3f2570.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bc3f2570.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
@@ -583,11 +598,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/d41b5e2a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d41b5e2a.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/d4c339cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d4c339cb.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/d59297b8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d59297b8.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/d6e6eab9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d6e6eab9.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/d7746a63.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d7746a63.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/d8317ada.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d8317ada.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/da7377f6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/da7377f6.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/dbc54cab.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbc54cab.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/dbff3a01.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbff3a01.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/dc99f41e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dc99f41e.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/dfc0fe80.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dfc0fe80.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/e442e424.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e442e424.0 \
@@ -596,6 +610,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/e8651083.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e8651083.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ed39abd0.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/f013ecaf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f013ecaf.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/f0cd152c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f0cd152c.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/f459871d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f459871d.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/facacbc6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/facacbc6.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/fb5fa911.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fb5fa911.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts/fd08c599.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fd08c599.0 \
@@ -603,7 +619,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/848ea856.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/848ea856.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
@@ -617,10 +632,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.4:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.4 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/a64489a3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/a64489a3.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/a64489a3.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/a64489a3.1 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
-    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/c9dbfc2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/c9dbfc2e.0 \
+    vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/xiaomi/merlin/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -674,26 +690,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/fast_switch2.txt \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/focaltech_ts_fw_xinli.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_xinli.bin \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_default_firmware1.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware1.img \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_default_firmware3.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware3.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_default_firmware4.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware4.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_hotknot_auth_firmware1.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_hotknot_auth_firmware1.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_hotknot_auth_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_hotknot_auth_firmware2.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_hotknot_auth_firmware3.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_hotknot_auth_firmware3.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_hotknot_auth_firmware4.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_hotknot_auth_firmware4.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_patch_jump_firmware1.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_patch_jump_firmware1.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_patch_jump_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_patch_jump_firmware2.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_patch_jump_firmware3.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_patch_jump_firmware3.img \
-    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt1151_patch_jump_firmware4.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_patch_jump_firmware4.img \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v96.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v99.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6853v01.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6873v01.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v01.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v1.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6885v9c.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v9c.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6893v01.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6885.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_gt9885v1.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785a4.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785ae.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6853v01.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6873v01.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885a1.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6885af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885af.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6885b0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b0.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6885b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b1.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885v01.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6893v01.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/novatek_ts_72d_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_72d_fw.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/novatek_ts_72d_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_72d_mp.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/novatek_ts_g6_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_g6_fw.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/novatek_ts_g6_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_g6_mp.bin \
@@ -702,55 +723,71 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_bt_1a_1_hdr.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_mcu_1a_1_hdr.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1a_1_hdr.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/soc3_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1_1_hdr.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1a_1_hdr.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/soc3_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_1_1_hdr.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_1a_1_hdr.bin \
+    vendor/xiaomi/merlin/proprietary/vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_e1_hdr.bin \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/merlin/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/xiaomi/merlin/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/xiaomi/merlin/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/gc02m1_macro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_macro_mipi_raw_tuning.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/gc02m1_macro_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_macro_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/gc02m1_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_sunny_mipi_raw_tuning.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl-mediatek.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/audio.r_submix.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/audio.usb.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/consumerir.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/dfps.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6768.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/gatekeeper.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.beanpod.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/gralloc.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6768.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.default.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/kmsetkey.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.beanpod.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/lights.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/memtrack.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/power.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/thermal.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/jcos_client.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxG711Dec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxVdecEx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
@@ -773,40 +810,42 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofmtconv.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioloudc.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libc2kutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2kutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcharon-ss.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchrome.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcheckpid.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcrypto-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto-ss.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcurl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-ss.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl_xcap_md.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdirect-coredump.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libfpspolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpspolicy.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sd.ca7.so \
@@ -833,7 +872,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmt.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libmtee.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtee.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
@@ -846,17 +884,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_jni_R.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcap.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpq_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
@@ -876,12 +914,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libteeclientjni@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libthhclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthhclient.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_utils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libutinterface_custom_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_custom_md.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libutinterface_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_md.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
@@ -906,23 +943,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeyboxext.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/ls_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/ls_client.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/mibokeh_mt6768_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_mt6768_opencl.bin \
     vendor/xiaomi/merlin/proprietary/vendor/lib/ov13b10_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13b10_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/ov13b10_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13b10_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/s5k4h7yx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7yx_mipi_raw_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/s5k4h7yx_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7yx_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/s5k5e9_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k5e9_mipi_raw_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/s5k5e9_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k5e9_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/s5kgm1sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm1sp_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/s5kgm1sp_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm1sp_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/se_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/se_extn_client.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/secure_element-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/secure_element-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gpu@1.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.keyinstall@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keyinstall@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
@@ -933,6 +967,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
@@ -940,16 +976,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.microtrust.hardware.capi@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.1.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.2.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/gc02m1_macro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_macro_mipi_raw_IdxMgr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/gc02m1_macro_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_macro_mipi_raw_india_IdxMgr.so \
@@ -968,39 +1007,46 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/gc02m1_sunny_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_sunny_mipi_raw_india_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/gc02m1_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hq_asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hq_asd.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/audio.r_submix.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/audio.usb.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/consumerir.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/dfps.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/gatekeeper.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/gralloc.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/hwcomposer.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6768.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.default.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/kmsetkey.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.beanpod.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/lights.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/memtrack.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/power.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/sensors.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/thermal.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.mt6768.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/jcos_client.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.mt6768.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
@@ -1015,10 +1061,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/lib3a.lce.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.lce.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.log.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.n3d3a.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBnMtkCodec.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibrary.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibraryWrapper.so \
@@ -1037,6 +1085,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libabfadp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libabfadp.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libakm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libakm.so \
@@ -1054,7 +1103,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libarcsoft_super_night.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_supernight.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
@@ -1066,11 +1114,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiodcrflt_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofmtconv.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioloudc.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
@@ -1079,7 +1129,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libc++_shared_vf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared_vf.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libc2kutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2kutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.feature_utils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcam.hal3a.cctsvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.cctsvr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.log.so \
@@ -1097,6 +1146,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.vhdr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcam3a_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam3a_imem.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.3dnr.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libcamalgo.abf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.abf.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcamalgo.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.asd.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.dngop.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.eis.so \
@@ -1125,18 +1175,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon-ss.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrome.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcheckpid.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcrypto-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-ss.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcurl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl-ss.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl_xcap_md.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdirect-coredump.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libdng_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdng_sdk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_camera_jni.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
@@ -1158,6 +1206,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libhq_videofilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhq_videofilter.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
@@ -1175,6 +1225,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libkeymaster4support.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4support.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
@@ -1196,10 +1248,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmt.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmt@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmt@1.2.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtee.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtee.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtk-rilop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-rilop.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
@@ -1218,12 +1270,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_calibration_convertor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_calibration_provider.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_debugutils.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_device3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_device3_app.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3_app.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_device3_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3_hal.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_device3_hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3_hidl.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_device3_hidlutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3_hidlutils.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_device3_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3_utils.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_devicesessionpolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_devicesessionpolicy.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_diputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_diputils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_dpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_dpe.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_exif.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_fdvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fdvt.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_featurepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_featurepolicy.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_featureutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_featureutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_fwkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fwkutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_grallocutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwnode.so \
@@ -1235,7 +1293,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_modulefactory_aaa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_aaa.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_modulefactory_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_custom.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_modulefactory_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_drv.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_modulefactory_feature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_feature.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_modulefactory_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_utils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulehelper.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipeline.so \
@@ -1243,6 +1300,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinemodel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinemodel_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_adapter.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinemodel_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_capture.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinemodel_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_isp.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinemodel_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_session.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinemodel_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_utils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinemodel_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_zsl.so \
@@ -1252,6 +1310,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_pipelinepolicy_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy_factory.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_prerelease.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_prerelease.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_rsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_rsc.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_scenariorecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_scenariorecorder.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_stdutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_streamutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcam_synchelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_synchelper.so \
@@ -1262,8 +1321,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkconfigutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkconfigutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkhardware_legacy.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkisp_metadata.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
@@ -1274,19 +1333,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_jni_R.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_daemon_callback.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_platform.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcap.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libpq_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
@@ -1296,6 +1356,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libsdk_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdk_sr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-ss.so \
@@ -1308,12 +1369,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libteeclientjni@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libthhclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthhclient.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlcWidevineModularDrm.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_utils.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libutinterface_custom_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutinterface_custom_md.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libutinterface_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutinterface_md.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_oal.so \
@@ -1332,13 +1392,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeyboxext.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/ls_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ls_client.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/mibokeh_mt6768_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/mibokeh_mt6768_opencl.bin \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/ov13b10_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov13b10_mipi_raw_IdxMgr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/ov13b10_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov13b10_mipi_raw_india_IdxMgr.so \
@@ -1368,14 +1425,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k4h7yx_sunny_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4h7yx_sunny_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k4h7yx_sunny_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4h7yx_sunny_mipi_raw_india_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k4h7yx_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4h7yx_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_mipi_raw_india_IdxMgr.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_mipi_raw_india_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_mipi_raw_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_sunny_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_sunny_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_sunny_mipi_raw_india_IdxMgr.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_sunny_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_sunny_mipi_raw_india_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/s5k5e9_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k5e9_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5kgm1sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1sp_mipi_raw_IdxMgr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5kgm1sp_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1sp_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5kgm1sp_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1sp_mipi_raw_india_tuning.so \
@@ -1384,23 +1433,29 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5kgm1sp_sunny_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1sp_sunny_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5kgm1sp_sunny_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1sp_sunny_mipi_raw_india_tuning.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/s5kgm1sp_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1sp_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/se_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_extn_client.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/secure_element-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/secure_element-impl.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.atms@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.security@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.1.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.2.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.dplanner@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dplanner@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.2.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.3.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.gpu@1.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.keyinstall@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keyinstall@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
@@ -1413,30 +1468,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.4.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.5.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.3.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.4.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.5.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower@1.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower@1.1.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.1.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.1.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.2.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.3.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.4.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@2.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@3.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.capi@2.0.so \
+    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.microtrust.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.soter@1.0.so \
-    vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.microtrust.hardware.thh@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.thh@2.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
@@ -1444,13 +1496,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/lib64/wechat.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/wechat.beanpod.so \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/020b0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020b0000000000000000000000000000.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
-    vendor/xiaomi/merlin/proprietary/vendor/thh/ta/05110000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/05110000000000000000000000000000.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/05120000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/05120000000000000000000000000000.ta \
+    vendor/xiaomi/merlin/proprietary/vendor/thh/ta/06090000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/06090000000000000000000000000000.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/07060000000000000000000000007169.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/07060000000000000000000000007169.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/08010203000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08010203000000000000000000000000.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/08020000000000000000000000007169.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08020000000000000000000000007169.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/08030000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08030000000000000000000000000000.ta \
+    vendor/xiaomi/merlin/proprietary/vendor/thh/ta/08070000000000000000000000008270.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08070000000000000000000000008270.ta \
+    vendor/xiaomi/merlin/proprietary/vendor/thh/ta/08110000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08110000000000000000000000000000.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/09010000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/09010000000000000000000000000000.ta \
+    vendor/xiaomi/merlin/proprietary/vendor/thh/ta/09030000000000000000000000008270.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/09030000000000000000000000008270.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/40188311faf343488db888ad39496f9a.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/40188311faf343488db888ad39496f9a.ta \
@@ -1470,8 +1525,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 
 PRODUCT_PACKAGES += \
-    libfmjni \
-    SoterService \
     manifest_android.hardware.gpu@1.0-service \
+    android.hardware.wifi.hostapd \
+    android.hardware.wifi@1.0-service \
     manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.mediatek.hardware.dplanner@2.0-service
+    power-default \
+    manifest_vendor.mediatek.hardware.dplanner@2.0-service \
+    vibrator-mtk-default

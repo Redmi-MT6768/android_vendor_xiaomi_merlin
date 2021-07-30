@@ -373,7 +373,6 @@
     <!-- whether support multi face input -->
     <bool name="support_multi_face_input">true</bool>
     <bool name="support_multi_face_input_global">true</bool>
-
     <!-- device head sar value -->
     <float name="device_head_sar">0.853</float>
     <!-- device body sar value -->
@@ -382,10 +381,10 @@
     <bool name="support_nfc">false</bool>
     <!-- NFC related -->
     <bool name="support_se_route">false</bool>
+    <!-- whether support bluetooth fast startup -->
+    <bool name="support_bluetooth_mtk_boost">true</bool>
     <!-- 2DFA support -->
     <integer name="ifaa_2dfa_support">1</integer>
     <!-- whether support hangup while screen turnning off -->
     <bool name="support_hangup_while_screen_off">true</bool>
-    <!-- Whether support sunlight mode -->
-    <bool name="config_sunlight_mode_available">true</bool>
 </features>

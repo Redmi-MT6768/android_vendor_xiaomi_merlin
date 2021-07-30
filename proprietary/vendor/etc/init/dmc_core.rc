@@ -5,6 +5,8 @@ service dmc_core /vendor/bin/dmc_core
     user system
     group system
     interface vendor.mediatek.hardware.dmc@1.0::IDmcService dmc_hidl_service
+    interface vendor.mediatek.hardware.dmc@1.1::IDmcService dmc_hidl_service
+    interface vendor.mediatek.hardware.dmc@1.2::IDmcService dmc_hidl_service
     interface vendor.mediatek.hardware.apmonitor@2.0::IApmService apm_hidl_service
     disabled
     oneshot
