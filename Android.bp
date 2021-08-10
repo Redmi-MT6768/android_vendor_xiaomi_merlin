@@ -111,13 +111,3 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
-
-prebuilt_etc_xml {
-	name: "vibrator-mtk-default",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
